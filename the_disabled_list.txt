@@ -1,0 +1,80 @@
+# 禁用服务列表
+
+# 参见：https://zhuanlan.zhihu.com/p/279282628
+# 需要NTFS链接跟踪请勿禁用TrkWks
+# 需要开WIFI热点请勿禁用SharedAccess
+# 需要IPV6请勿禁用iphlpsvc
+# 需要IPsec请勿禁用PolicyAgent
+# 需要网络映射请勿禁用lltdsvc
+# 需要程序兼容性助手请勿禁用PcaSvc
+# 需要共享服务请勿禁用LanmanServer和lmhosts
+# 需要自动播放请勿禁用ShellHWDetection
+# 需要使用SSDP协议请勿禁用SSDPSRV
+# 机械硬盘请勿禁用SysMain
+# 需要Windows生物识别(指纹、WindowsHello)请勿禁用WbioSrvc
+# 需要Windows搜索请勿禁用WSearch
+# 需要Windows更新请勿禁用wuauserv
+# 需要Windows备份和还原请勿禁用SDRSVC
+# 需要系统推送通知请勿禁用WpnService
+# 需要HTTP代理请勿禁用WinHttpAutoProxySvc
+# 需要SMB协议远程连接请勿禁用LanmanWorkstation
+# 需要Xbox请勿禁用XblAuthManager和XboxNetApiSvc以及XblGameSave
+# 需要自动设置系统时区请勿关闭tzautoupdate
+
+ALG
+aspnet_state
+DiagTrack
+WdiServiceHost
+WdiSystemHost
+TrkWks
+MapsBroker
+fdPHost
+iphlpsvc
+PolicyAgent
+lltdsvc
+AppVClient
+MSiSCSI
+swprv
+NetTcpPortSharing
+CscService
+pla
+WPDBusEnum
+PcaSvc
+QWAVE
+RemoteAccess
+wscsvc
+shpamsvc
+ShellHWDetection
+SCardSvr
+ScDeviceEnum
+SCPolicySvc
+SSDPSRV
+SysMain
+SynTPEnhService
+TapiSrv
+UevAgentService
+WSearch
+SDRSVC
+# SharedAccess
+# LanmanServer
+# lmhosts
+# LanmanWorkstation
+# WbioSrvc
+# wuauserv
+# WpnService
+# WinHttpAutoProxySvc
+# XblAuthManager
+# XboxNetApiSvc
+# XblGameSave
+# tzautoupdate
+
+# for HP OEM
+# HpTouchpointAnalyticsService
+HPAppHelperCap
+hpqcaslwmiex
+HP Comm Recover
+HPDiagsCap
+HPJumpStartBridge
+HPNetworkCap
+HPPrintScanDoctorService
+# HPSysInfoCap
