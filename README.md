@@ -5,9 +5,9 @@
 ## 特性
 
 - 批量禁用
-
+- 自带一份  精  心  调  教  的禁用服务列表（`the_disabled_list.txt`）
 - 备份与还原
-- 极  其  轻  量（简陋的UI和低效的代码）
+- 极  其  轻  量
 - More jump and bugs
 
 ## 使用
