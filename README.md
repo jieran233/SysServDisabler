@@ -45,4 +45,4 @@
 
 
 
-<img src="https://gitee.com/jieran233/pic-bed/raw/master/image-20211014080448738.png" />
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/image-20211014080448738.png" style="zoom:67%;" />
